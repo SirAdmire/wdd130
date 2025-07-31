@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Whitewater Rafting Home Page" />
+  <meta name="author" content="Admire Murombedzi" />
+  <title>Home | Whitewater Rafting Co.</title>
+
+  <!-- Fonts and CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+  <!-- Header (nav only) -->
+  <header>
+    <div class="header-container">
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src= "c:\Users\admir\OneDrive\Documents\BYU Ass\wdd1300\Robotics\images\Picture1.png " alt="Rafting Logo" class="hero-logo">
+      <div class="hero-overlay">
+        <h1>Have An Adventure!</h1>
+        <button class="cta-btn" onclick="window.location.href='trips.html'">Book with Us</button>
+
+        <!-- Floated image inside paragraph -->
+        <p class="hero-text">
+          <img src="images/rafting59_600.jpg" alt="Floating raft" class="float-image">
+          Experience the rush of whitewater rapids with our expert guides. Whether you're new to rafting or a seasoned adventurer, we offer the perfect blend of excitement and safety. Our adventures are designed to create memories that last a lifetime while exploring the most scenic river routes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature">
+        <img src="images/rafting19_600.jpg" alt="Swimming adventure">
+        <p>Rafting</p>
+      </div>
+      <div class="feature">
+        <img src="images/rafting22_600.jpg" alt="Camping adventure">
+        <p>Camping</p>
+      </div>
+      <div class="feature">
+        <img src="images/rafting20_600.jpg" alt="Rapids adventure">
+        <p>Rapids</p>
+      </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="history">
+      <h2>History</h2>
+      <p>White Water Rafting Co. was founded in 2005 with a mission to share the thrill of whitewater rafting with the world. Starting with just a small crew and a couple of rafts, we've grown into a trusted adventure company, guiding thousands safely through unforgettable river journeys.</p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h2>Newsletter</h2>
+      <div class="newsletter-box">
+        <form action="/subscribe" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 | White Water Rafting Company | Admire Murombedzi</p>
+    <div class="social">
+      <a href="https://facebook.com" aria-label="Facebook">
+        <img src="images/1_Facebook_colored_svg_copy-64.webp" alt="Facebook">
+      </a>
+      <a href="https://twitter.com" aria-label="Twitter">
+        <img src="images/twitter_3670151.png" alt="Twitter">
+      </a>
+      <a href="https://instagram.com" aria-label="Instagram">
+        <img src="images/instagram-logo_4096260.png" alt="Instagram">
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
