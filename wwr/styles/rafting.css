@@ -178,10 +178,9 @@ footer .socialmedia {
   gap: 20px;
 }
 
-/* ✅ Fix: ensure links inside .socialmedia have no underline */
 footer .socialmedia a {
   text-decoration: none;
-  color: inherit; /* keeps icon links consistent */
+  color: inherit; 
 }
 
 footer .socialmedia img {
