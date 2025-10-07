@@ -1,58 +1,54 @@
-/* ===== Header and Navigation - REVISED for dark background and right alignment ===== */
 
-/* The header element contains the logo and the nav bar */
 header {
-  background-color: #2c3e50; /* Dark background color for the entire header */
+  background-color: #2c3e50; 
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between; /* Pushes the logo left and the nav right */
-  align-items: center; /* Vertically aligns the logo and nav links */
+  justify-content: space-between; 
+  align-items: center;
 }
 
 header .logo {
-  height: 80px; /* Keep your existing logo height */
-  /* Remove any conflicting float or margin properties */
+  height: 80px; 
+
 }
 
-/* Navigation Container */
+
 .header-nav {
-  /* This is the container for the <ul> */
+ 
 }
 
-/* The actual list of links */
+
 .header-nav ul {
-  list-style: none; /* Removes bullet points */
+  list-style: none; 
   margin: 0;
   padding: 0;
-  display: flex; /* Makes the list items horizontal */
-  gap: 20px; /* Space between links */
+  display: flex; 
+  gap: 20px; 
 }
 
-/* Individual list items */
+
 .header-nav ul li {
-  display: inline-block; /* Helps with alignment and padding */
+  display: inline-block;
 }
 
-/* The anchor links */
+
 .header-nav ul li a {
   display: block;
-  padding: 8px 15px; /* Padding for click area */
+  padding: 8px 15px; \
   text-decoration: none;
-  color: #ecf0f1; /* Light text color for contrast against dark background */
+  color: #ecf0f1; 
   font-weight: bold;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Active and Hover states */
+
 .header-nav ul li a:hover,
 .header-nav ul li a.active {
-  background-color: #1e90ff; /* Bright blue background on hover/active */
+  background-color: #1e90ff; 
   color: #fff;
 }
 
-
-/* ===== Contact Page ===== */
 .contact-info {
   text-align: center;
   background: #fff;
